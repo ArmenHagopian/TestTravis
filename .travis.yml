@@ -1,3 +1,4 @@
 language : java
-script : java build.xml
-install: ant deps
+install: ant build
+jdk:
+  - oraclejdk8
